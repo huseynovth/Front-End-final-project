@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    color: #353b41;
+    background: #e9ebee;
+    display: flex;
+    justify-content: space-between;
+}
+.demo-1{
+    width: 300px ;
+    height: 40px;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+}
+.demo-1> p{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.demo-1>.fa-twitter{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.demo-3{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 200px ;
+}
+.dropdown{
+    margin-right: 20px;
+    
+}
+.demo-3 .menu{
+    width: 150px;
+    height: 70px;
+    -moz-box-shadow: -8px 7px 35px -5px rgba(172, 166, 166, 0.65);
+    -webkit-box-shadow: -8px 7px 35px -5px rgba(180, 175, 175, 0.65);
+    box-shadow: -8px 7px 35px -5px rgba(165, 162, 162, 0.65);
+}
+.demo-3 .m1{
+    top: 60px;
+    right: 110px;
+}
+.demo-3 .m2{
+    top: 60px;
+    right: 20px;
+}
+.demo-3 .menu > a{
+    display: flex;
+    align-items: center;
+    color: rgb(141, 137, 137);
+    line-height: 30px;
+    font-weight: bold;
+    justify-content: center;
+    text-decoration: none;
+}
+.dropbtn{
+    cursor: pointer;
+}
+.dropdown.active .menu{display: block;}
+.dropdown2.active .menu2{display: block;}
+.dropdown .menu{display: none;}
+.dropdown2 .menu2{display: none;}
